@@ -25,7 +25,9 @@ jobs:
     - name: Run this action
       uses: ./
       with:
-        input1: bar-value
+        input1: lorem
+        input2: ipsum
+        environment: true
       env:
         FOO: 123
         BAR: 234

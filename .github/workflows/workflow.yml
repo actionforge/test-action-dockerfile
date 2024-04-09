@@ -29,5 +29,4 @@ jobs:
         input2: ipsum
         environment: true
       env:
-        FOO: 123
-        BAR: 234
+        CUSTOM_ENV: lorem
